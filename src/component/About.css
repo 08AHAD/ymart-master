@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Princess+Sofia&family=Splash&family=Urbanist:wght@100&display=swap');
+.box{
+ display: flex;
+ justify-content: center;
+ height: 100vh;
+ width: 100vw;
+ background-color: #FFDEE9;
+ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.title{
+ text-align: center;
+}
+.container1{
+ position: absolute;
+ top:35vh;
+ border-radius: 20px;
+ background-color: #8BC6EC;
+ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+ width: 430px;
+ height: 85px;
+}
+.titleName{
+ font-size: 50px;
+ font-family: 'Princess Sofia', cursive;
+ font-weight: bold;
+}
+/* context */
+.container2{
+ width: 70vw;
+ position: absolute;
+ bottom: 80px;
+ }
+.information{
+ font-size: 26px;
+ font-weight: bold;
+ font-family: 'Lobster', cursive;
+}
+/* man */
+.man{
+ height: 200px;
+ margin-top: 5px;
+ border-radius: 50%;
+}
